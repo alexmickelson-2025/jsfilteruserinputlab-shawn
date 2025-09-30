@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="site.css" rel="stylesheet" />
+    <script src="site.js" type="module"></script>
+  </head>
+  <body>
+    <div class="filter">
+      <label for="filterInput">Filter:</label>
+      <input id="filterInput" />
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody id="myTableBody">
+        <tr>
+          <td>Book 1</td>
+          <td>Author 1</td>
+          <td>Summary goes here.</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <section>
+      <h2>Title of Book Clicked:</h2>
+      <p id="selectedBookTitle"></p>
+    </section>
+  </body>
+</html>
